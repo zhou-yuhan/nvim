@@ -5,12 +5,32 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
-	[[                               __                ]],
-	[[  ___     ___    ___   __  __ /\_\    ___ ___    ]],
-	[[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]],
-	[[/\ \/\ \/\  __//\ \_\ \ \ \_/ |\ \ \/\ \/\ \/\ \ ]],
-	[[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]],
-	[[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
+[[               dc;,......,;c                 ]],
+[[           xc;...          ...,cx            ]],
+[[        k:..                     .ck         ]],
+[[      kc'.                        .'ck       ]],
+[[    0l;,'.    ..                   .,;o0     ]],
+[[   O:,,,,.  .lxdolc::;;;::clol,   .',,,cO    ]],
+[[  O:,,,,,'. :0KKKKKKKKKKKKKKKKx'  .',,,,c0   ]],
+[[  l,,,,,,'..c0KKKKKKKKKKKKKKKKx.  .,,,,,,o   ]],
+[[  ;,,,,,,,..c00KKKKKKKKKKKKKKKo. .',,,,,,:   ]],
+[[  ,,,,,,,,..;:;::ldOK00ko:;:;ol. .,,,,,,,,   ]],
+[[  ,,,,,,,,';dxddoodOK0Oxllccclx:..,,,,,,,,   ]],
+[[  ;,,,,,,,;lOKKKKKKKKKKKKKKKKKOc,;,,,,,,,;   ]],
+[[  l,,,,,,,;oOKKKKKKKKKKKKKKKKKkooc,,,,,,,o   ]],
+[[  O:,,,,,,,ckKKKKKKKKKKKKKKKKKOkd;,,,,,,c0   ]],
+[[   k:,,,,,,;d0KOxolcclooxk0KKK0d:,,,,,,cO    ]],
+[[     l,,,,,,ckx,.'',''....;kKOo;,,,,,,l      ]],
+[[      x:,,,,,cooxO000OOkxlcxxc,,,,,,ck       ]],
+[[        kl;,,,;cx0KKKKKKKK0d:,,,,;lk         ]],
+[[           xo:;:lxOO0000OOkl:ccox            ]],
+ 
+-- [[                               __                ]],
+-- [[  ___     ___    ___   __  __ /\_\    ___ ___    ]],
+-- [[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]],
+-- [[/\ \/\ \/\  __//\ \_\ \ \ \_/ |\ \ \/\ \/\ \/\ \ ]],
+-- [[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]],
+-- [[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
 }
 dashboard.section.buttons.val = {
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),

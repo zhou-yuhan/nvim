@@ -47,8 +47,6 @@ return packer.startup(function(use)
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
   use "akinsho/bufferline.nvim"
-  use "numToStr/Comment.nvim" -- Easily comment stuff                                                                                                         
-  use "JoosepAlviste/nvim-ts-context-commentstring"
   use "moll/vim-bbye"
 
   -- Colorschemes
@@ -83,6 +81,9 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow"
   use "nvim-treesitter/playground"
+
+  use "numToStr/Comment.nvim" -- Easily comment stuff                                                                                                         
+  use "JoosepAlviste/nvim-ts-context-commentstring"
 
   -- terminal
   use "akinsho/toggleterm.nvim"
