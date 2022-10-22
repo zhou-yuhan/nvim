@@ -11,5 +11,8 @@ require "user.bufferline"
 require "user.treesitter"
 require "user.comment"
 require "user.alpha"
+require "user.impatient"
+require "user.indentline"
+require "user.project"
 
 vim.cmd "highlight comment guifg=#6d8d57"

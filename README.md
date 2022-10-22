@@ -1,14 +1,11 @@
 # Neovim from scratch
 
+This configuration is based on [Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch).
+
 ## Try out this config
 
-Make sure to remove or move your current `nvim` directory
-
-```
-git clone git@github.com:ChristianChiarulli/Neovim-from-scratch.git ~/.config/nvim
-```
-
-Run `nvim` and wait for the plugins to be installed 
+The dashboard solutes the classic file [The Matrix](https://en.wikipedia.org/wiki/The_Matrix) and accidentally,
+the protagonist's name is also "Neo". 
 
 **NOTE** (You will notice treesitter pulling in a bunch of parsers the next time you open Neovim) 
 

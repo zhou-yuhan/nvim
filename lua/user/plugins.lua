@@ -96,6 +96,29 @@ return packer.startup(function(use)
     end
   }
 
+  -- gitsigns
+  use {
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require('gitsigns').setup()
+    end
+  }
+
+  -- which-key
+  use {
+    "folke/which-key.nvim",
+    config = function()
+      require("which-key").setup()
+    end
+  }
+
+  -- impatient
+  use 'lewis6991/impatient.nvim'
+  -- indentline
+  use "lukas-reineke/indent-blankline.nvim"
+  -- project
+  use "ahmedkhalf/project.nvim"
+
   -- alpha
   use {
     "goolord/alpha-nvim",
