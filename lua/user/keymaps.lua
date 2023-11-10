@@ -77,9 +77,12 @@ keymap("n", "<leader>g", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Split
-keymap("n", "<C-a>|", ":vsplit<cr>", opts)
-keymap("n", "<C-a>-", ":split<cr>", opts)
+keymap("n", "<C-w>\\", ":vsplit<cr>", opts)
+keymap("n", "<C-w>-", ":split<cr>", opts)
+
+-- Don't want 'dd' to cut the whole line
+keymap("n", "d", '"_d', opts)
 
 -- Bufferline
-keymap("n", "<C-a>d", ":Bdelete<cr>", opts)
+keymap("n", "<leader>q", ":Bdelete<cr>", opts)
 

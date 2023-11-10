@@ -66,8 +66,16 @@ return packer.startup(function(use)
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
   -- LSP
-  use "neovim/nvim-lspconfig" -- enable LSP
-  use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use {
+        "neovim/nvim-lspconfig", -- enable LSP
+        lock = true,
+        tag = "v0.1.6"
+    }
+  use {
+        "williamboman/nvim-lsp-installer", -- simple to use language server nvim-lsp-installer
+        lock = true,
+    } 
+  --[[ use "williamboman/mason.nvim" ]]
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
 
   -- Telescope
@@ -115,9 +123,11 @@ return packer.startup(function(use)
   -- impatient
   use 'lewis6991/impatient.nvim'
   -- indentline
-  use "lukas-reineke/indent-blankline.nvim"
-  -- project
-  use "ahmedkhalf/project.nvim"
+  use {
+      "lukas-reineke/indent-blankline.nvim",
+      lock = true,
+      tag = "v2.20.4"
+  }
 
   -- alpha
   use {
@@ -126,6 +136,12 @@ return packer.startup(function(use)
     --[[   require("alpha").setup(require("alpha.themes.dashboard").config) ]]
     --[[ end ]]
   }
+
+  -- codeium
+  use 'Exafunction/codeium.vim'
+
+  -- Markers
+  use "chentoast/marks.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

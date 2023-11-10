@@ -13,6 +13,7 @@ require "user.comment"
 require "user.alpha"
 require "user.impatient"
 require "user.indentline"
-require "user.project"
+require "user.marks"
 
+require'nvim-tree'.setup {}
 vim.cmd "highlight comment guifg=#6d8d57"
